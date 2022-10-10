@@ -32,7 +32,7 @@ moneywash = function ()
             while true do
                 Wait(1)
                 letSleep = true
-               if PlayerJob.name ~= "police"  then
+               if PlayerJob.name == Config.Job  then
                     local playerPed = PlayerPedId()
                     local playerCoords = GetEntityCoords(playerPed, true)
                     for k, v in pairs(Config.Locations) do

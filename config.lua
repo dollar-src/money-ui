@@ -8,3 +8,5 @@ Config.Locations = {
     
     
     }
+
+Config.Job = 'police'
